@@ -1,32 +1,14 @@
-# 🧠  Customer Segmentation using K-Means Clustering
+# Customer Segmentation using K-Means
 
-This project applies **K-Means Clustering** to segment mall customers based on age, annual income, and spending score. The goal is to identify distinct customer groups to assist in targeted marketing and business decisions.
----
-## 📊 Dataset Description
+This project applies **K-Means Clustering** to segment mall customers into distinct groups based on their age, income, and spending score. The goal is to identify customer types for better targeting and business insights.
 
-The dataset contains customer information from a shopping mall, including:
+## Objectives
+- Perform EDA and data preprocessing
+- Apply K-Means clustering
+- Visualize and interpret the clusters
 
-- `CustomerID`: Unique identifier
-- `Gender`: Male/Female
-- `Age`: Customer’s age
-- `Annual Income (k$)`: Annual income in thousands
-- `Spending Score`: Score assigned based on spending behavior
+## Tools Used
+Jupyter Notebook, pandas, matplotlib, seaborn, scikit-learn
 
----
-
-## 🎯 Objectives
-
-- Perform **Exploratory Data Analysis (EDA)**
-- Preprocess and scale data
-- Apply **K-Means Clustering**
-- Visualize customer segments
-- Interpret the resulting clusters
-
----
-
-## 📈 Results
-
-The dataset was segmented into distinct clusters that represent different customer behavior patterns based on income and spending. These clusters can support business decisions like personalized offers and loyalty programs.
-
-
-
+## Output
+The dataset was clustered into meaningful customer segments with clear visualizations of the results.
